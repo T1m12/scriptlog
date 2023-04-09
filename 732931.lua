@@ -33,12 +33,6 @@ local PlayerData =
                     ["value"] = "https://www.roblox.com/games/" .. place_id,
                     ["inline"] = false
                 },
-
-                {
-                    ["name"] = "2nd hwid:",
-                    ["value"] = "https://www.roblox.com/games/" .. place_id,
-                    ["inline"] = false
-                },
  
                 {
                     ["name"] = "Account Age:",
