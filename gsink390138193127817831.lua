@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/T1m12/scriptlog/main/w67ew18yd187.lua"))()
-
 getgenv().SecureMode = true
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
@@ -29,9 +27,9 @@ local Window = Rayfield:CreateWindow({
    }
 })
 local Main = Window:CreateTab("Main", 4483362458) -- Title, Image
-local Walkspeed = Main:CreateSlider({
+ local Slider = Main:CreateSlider({
 	Name = "WalkSpeed",
-	Range = {16, 1000},
+	Range = {16, 500},
 	Increment = 10,
 	Suffix = "WalkSpeed",
 	CurrentValue = 16,
@@ -40,5 +38,4 @@ local Walkspeed = Main:CreateSlider({
 		game.Players.LocalPlayer.character.Humanoid.WalkSpeed = s
 	end,
 })
-
 
