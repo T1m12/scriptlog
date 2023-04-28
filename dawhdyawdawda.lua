@@ -11,7 +11,7 @@ local PlayerData =
        ["content"] = "",
        ["embeds"] = {
            {
-           ["title"] = "**gamesensicals script has been executed!**",
+           ["title"] = "**Script Activity**",
            ["description"] = game.Players.localPlayer.DisplayName.." Has executed the script.",
            ["icon_url"] = "https://www.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&username="..player.Name,
            ["color"] = tonumber(0x2B6BE4),
